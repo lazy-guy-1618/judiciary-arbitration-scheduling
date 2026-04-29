@@ -1,0 +1,54 @@
+defaults:
+  years: [2026]
+  statuses: [disposed, pending]
+  max_pages: 200
+  slow_mo_ms: 150
+  headless: false
+  captcha_mode: manual
+
+courts:
+  calcutta:
+    kind: high_court
+    label: Calcutta High Court
+    home_url: https://hcservices.ecourts.gov.in/
+    high_court_name: Calcutta
+    benches:
+      - Original Side
+      - Appellate Side
+    preferred_case_type_keywords:
+      - arbitration
+      - arb
+      - ap
+  orissa:
+    kind: high_court
+    label: Orissa High Court
+    home_url: https://hcservices.ecourts.gov.in/
+    high_court_name: Orissa
+    benches:
+      - Principal Bench
+    preferred_case_type_keywords:
+      - arbitration
+      - arb
+      - ap
+  chhattisgarh:
+    kind: high_court
+    label: Chhattisgarh High Court
+    home_url: https://hcservices.ecourts.gov.in/
+    high_court_name: Chhattisgarh
+    benches:
+      - Principal Bench
+    preferred_case_type_keywords:
+      - arbitration
+      - arb
+      - ap
+  rajasthan_jaipur:
+    kind: high_court
+    label: Rajasthan High Court Jaipur Bench
+    home_url: https://hcservices.ecourts.gov.in/
+    high_court_name: Rajasthan
+    benches:
+      - Jaipur Bench
+    preferred_case_type_keywords:
+      - arbitration
+      - arb
+      - ap
