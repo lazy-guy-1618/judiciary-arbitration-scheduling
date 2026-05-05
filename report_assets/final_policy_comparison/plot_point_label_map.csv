@@ -1,0 +1,17 @@
+point_id,family_label,policy,delay_mean,fairness_score,complexity_mean,FMAT_selected,AOCOM_selected,ADCOM_selected,is_pareto
+1,Bi-objective: delay-complexity,lambda_0.00,1000.375,0.77,23.525,15,5,0,True
+2,Bi-objective: delay-complexity,lambda_0.50,969.665,0.72,8.125,16,4,0,True
+3,Bi-objective: delay-complexity,lambda_1.00,517.025,0.778,1.45,7,13,0,False
+4,Bi-objective: delay-fairness,lambda_0.00,1000.375,0.77,23.525,15,5,0,True
+5,Bi-objective: delay-fairness,lambda_0.75,943.05,0.97,19.7,11,8,1,True
+6,Bi-objective: delay-fairness,lambda_1.00,625.21,0.978,19.05,10,9,1,True
+7,Multi-objective,balanced_all,981.235,0.72,9.55,16,4,0,True
+8,Multi-objective,complexity_only,555.755,0.978,1.45,10,9,1,True
+9,Multi-objective,delay_fairness,992.98,0.77,13.325,15,5,0,True
+10,Multi-objective,delay_only,1000.375,0.77,23.525,15,5,0,True
+11,Multi-objective,fairness_only,625.21,0.978,19.05,10,9,1,True
+12,Single-objective,fcfs_oldest_first,982.61,0.77,25.15,15,5,0,False
+13,Single-objective,gap_first,991.09,0.77,17.0,15,5,0,False
+14,Single-objective,round_robin_case_type,845.375,0.752,23.425,7,7,6,False
+15,Single-objective,sjf_proxy,517.025,0.778,1.45,7,13,0,False
+16,Single-objective,weighted_age_gap,1000.375,0.77,23.525,15,5,0,True
